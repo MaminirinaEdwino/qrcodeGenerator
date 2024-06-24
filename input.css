@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1{
+    @apply text-2xl font-semibold text-center m-5
+}
+.qrbox{
+    @apply m-auto w-80 border mt-10 flex flex-col rounded-lg items-center bg-gradient-to-br from-green-500 via-yellow-300 to-orange-300
+}
+#qrcode{
+    @apply mb-2 p-4 border rounded-lg bg-white w-11/12 duration-300 ease-out hidden
+}
+input{
+    @apply w-11/12 m-auto h-10 rounded-lg border p-2 mb-2
+}
+button{
+    @apply block h-10  w-11/12 rounded-lg mb-2 bg-green-500 text-white font-semibold hover:bg-green-400
+}
